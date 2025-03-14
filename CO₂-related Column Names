@@ -1,0 +1,94 @@
+1.기본 정보
+
+country → 국가
+year → 연도
+iso_code → ISO 국가 코드
+
+2.경제 및 인구 관련
+
+population → 인구
+gdp → 국내총생산(GDP)
+CO₂ 배출량 및 성장률
+
+cement_co2 → 시멘트 생산에서 발생한 CO₂ 배출량
+cement_co2_per_capita → 1인당 시멘트 생산 CO₂ 배출량
+co2 → 총 CO₂ 배출량
+co2_growth_abs → CO₂ 배출량 절대 증가량
+co2_growth_prct → CO₂ 배출량 증가율(%)
+co2_including_luc → 토지 이용 변화(LUC)를 포함한 총 CO₂ 배출량
+co2_including_luc_growth_abs → 토지 이용 변화를 포함한 CO₂ 절대 증가량
+co2_including_luc_growth_prct → 토지 이용 변화를 포함한 CO₂ 증가율(%)
+co2_including_luc_per_capita → 1인당 CO₂ 배출량 (토지 이용 변화 포함)
+co2_including_luc_per_gdp → GDP 대비 CO₂ 배출량 (토지 이용 변화 포함)
+co2_including_luc_per_unit_energy → 단위 에너지당 CO₂ 배출량 (토지 이용 변화 포함)
+co2_per_capita → 1인당 CO₂ 배출량
+co2_per_gdp → GDP 대비 CO₂ 배출량
+co2_per_unit_energy → 단위 에너지당 CO₂ 배출량
+
+
+3.에너지원별 CO₂ 배출량
+
+coal_co2 → 석탄에서 발생한 CO₂ 배출량
+coal_co2_per_capita → 1인당 석탄 CO₂ 배출량
+flaring_co2 → 가스 연소(플레어링)에서 발생한 CO₂ 배출량
+flaring_co2_per_capita → 1인당 가스 연소 CO₂ 배출량
+gas_co2 → 천연가스에서 발생한 CO₂ 배출량
+gas_co2_per_capita → 1인당 천연가스 CO₂ 배출량
+oil_co2 → 석유에서 발생한 CO₂ 배출량
+oil_co2_per_capita → 1인당 석유 CO₂ 배출량
+other_co2_per_capita → 기타 에너지원에서 발생한 1인당 CO₂ 배출량
+
+
+3.누적 CO₂ 배출량
+
+cumulative_cement_co2 → 누적 시멘트 CO₂ 배출량
+cumulative_co2 → 누적 CO₂ 배출량
+cumulative_co2_including_luc → 토지 이용 변화 포함 누적 CO₂ 배출량
+cumulative_coal_co2 → 누적 석탄 CO₂ 배출량
+cumulative_flaring_co2 → 누적 가스 연소 CO₂ 배출량
+cumulative_gas_co2 → 누적 천연가스 CO₂ 배출량
+cumulative_luc_co2 → 누적 토지 이용 변화 CO₂ 배출량
+cumulative_oil_co2 → 누적 석유 CO₂ 배출량
+cumulative_other_co2 → 누적 기타 CO₂ 배출량
+
+4.에너지 소비 관련
+
+energy_per_capita → 1인당 에너지 소비량
+energy_per_gdp → GDP 대비 에너지 소비량
+primary_energy_consumption → 1차 에너지 소비량
+
+5.지구 온난화 관련 온실가스(GHG) 배출량
+
+ghg_per_capita → 1인당 온실가스(GHG) 배출량
+ghg_excluding_lucf_per_capita → 토지 이용 변화 및 산림(LUCF) 제외한 1인당 온실가스 배출량
+total_ghg → 총 온실가스 배출량
+total_ghg_excluding_lucf → 토지 이용 변화 제외 총 온실가스 배출량
+methane → 메탄 배출량
+methane_per_capita → 1인당 메탄 배출량
+nitrous_oxide → 아산화질소 배출량
+nitrous_oxide_per_capita → 1인당 아산화질소 배출량
+
+6.세계 CO₂ 배출량 점유율(%)
+
+share_global_cement_co2 → 세계 시멘트 CO₂ 배출량 점유율
+share_global_co2 → 세계 CO₂ 배출량 점유율
+share_global_co2_including_luc → 세계 CO₂ 배출량 점유율 (토지 이용 변화 포함)
+share_global_coal_co2 → 세계 석탄 CO₂ 배출량 점유율
+share_global_flaring_co2 → 세계 가스 연소 CO₂ 배출량 점유율
+share_global_gas_co2 → 세계 천연가스 CO₂ 배출량 점유율
+share_global_luc_co2 → 세계 토지 이용 변화 CO₂ 배출량 점유율
+share_global_oil_co2 → 세계 석유 CO₂ 배출량 점유율
+share_global_other_co2 → 세계 기타 CO₂ 배출량 점유율
+
+7.지구 온난화 기여도
+
+share_of_temperature_change_from_ghg → 온실가스로 인한 기온 변화 기여도
+temperature_change_from_co2 → CO₂로 인한 기온 변화량
+temperature_change_from_ch4 → 메탄(CH₄)으로 인한 기온 변화량
+temperature_change_from_n2o → 아산화질소(N₂O)로 인한 기온 변화량
+temperature_change_from_ghg → 온실가스로 인한 전체 기온 변화량
+
+8.무역 관련 CO₂ 배출량
+
+trade_co2 → 무역으로 인한 CO₂ 배출량
+trade_co2_share → 무역 관련 CO₂ 배출량의 세계 점유율
